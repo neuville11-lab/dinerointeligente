@@ -1,0 +1,255 @@
+// Generado automáticamente por build/generate.js — no editar a mano.
+const PROMOS = [
+  {
+    "id": "1",
+    "slug": "openbank-cuenta-nomina",
+    "titulo": "200€ por domiciliar tu nómina",
+    "entidad": "Openbank",
+    "categoria": "bancaria",
+    "tipoTexto": "Cuenta bancaria",
+    "recompensa": "200€",
+    "clienteNuevo": true,
+    "nominaMinima": 800,
+    "importeMinimo": 0,
+    "region": "nacional",
+    "fechaLimite": "2026-09-30",
+    "resumen": "Abre una cuenta nómina en Openbank y recibe 200€ en 3 pagos por domiciliar tu nómina de al menos 800€ durante 6 meses.",
+    "puntosClave": [
+      "Cuenta 100% online, sin comisiones de mantenimiento",
+      "200€ repartidos en 3 pagos a lo largo de 9 meses",
+      "Pensado para quien va a domiciliar su nómina habitual"
+    ],
+    "requisitos": [
+      "Ser cliente nuevo de Openbank",
+      "Domiciliar una nómina, pensión o prestación de al menos 800€/mes",
+      "Mantener la domiciliación al menos 6 meses",
+      "Realizar 3 pagos con tarjeta al mes"
+    ],
+    "pasos": [
+      "Solicita la cuenta nómina online",
+      "Domicilia tu nómina de al menos 800€/mes en los primeros 60 días",
+      "Realiza 3 pagos con tarjeta cada mes",
+      "Recibe 50€ a los 3 meses, 75€ a los 6 y 75€ a los 9"
+    ],
+    "letraPequena": "Promoción sujeta a cambios por parte de la entidad. Comprueba siempre las condiciones actualizadas en la web oficial antes de contratar.",
+    "enlace": "https://www.openbank.es"
+  },
+  {
+    "id": "2",
+    "slug": "trade-republic-broker-bienvenida",
+    "titulo": "Acción gratis al abrir cuenta",
+    "entidad": "Trade Republic",
+    "categoria": "inversion",
+    "tipoTexto": "Inversión / broker",
+    "recompensa": "Hasta 200€ en acciones",
+    "clienteNuevo": true,
+    "nominaMinima": 0,
+    "importeMinimo": 1,
+    "region": "nacional",
+    "fechaLimite": "2026-08-15",
+    "resumen": "Regístrate en Trade Republic con código de invitación y recibe una acción gratuita valorada entre 1€ y 200€ tras tu primer ingreso.",
+    "puntosClave": [
+      "Broker regulado, disponible en España",
+      "La acción de bienvenida es aleatoria: entre 1€ y 200€",
+      "Solo requiere 1€ de ingreso inicial"
+    ],
+    "requisitos": [
+      "No haber tenido cuenta previa en Trade Republic",
+      "Registrarte con enlace o código de invitación",
+      "Realizar un primer ingreso mínimo de 1€",
+      "Verificar identidad completa"
+    ],
+    "pasos": [
+      "Descarga la app y regístrate con el enlace de invitación",
+      "Verifica tu identidad",
+      "Haz un primer ingreso mínimo de 1€",
+      "Recibe la acción sorpresa en tu cartera en 1-3 días laborables"
+    ],
+    "letraPequena": "El valor de la acción es aleatorio dentro del rango indicado. Promoción sujeta a cambios por parte de la entidad.",
+    "enlace": "https://www.traderepublic.com"
+  },
+  {
+    "id": "3",
+    "slug": "revolut-tarjeta-metal-referido",
+    "titulo": "30€ por invitar a un amigo",
+    "entidad": "Revolut",
+    "categoria": "tarjeta",
+    "tipoTexto": "Tarjeta / fintech",
+    "recompensa": "30€",
+    "clienteNuevo": false,
+    "nominaMinima": 0,
+    "importeMinimo": 0,
+    "region": "nacional",
+    "fechaLimite": "2026-12-31",
+    "resumen": "Invita a un amigo a Revolut y recibe 30€ cuando complete el registro y gaste con su tarjeta.",
+    "puntosClave": [
+      "No hace falta ser cliente nuevo, solo invitar",
+      "30€ por cada amigo que se registre y gaste",
+      "Pago rápido, en pocos días tras el gasto del invitado"
+    ],
+    "requisitos": [
+      "Tener ya una cuenta activa en Revolut",
+      "Que el invitado se registre con tu enlace",
+      "El invitado debe realizar un gasto mínimo con la tarjeta"
+    ],
+    "pasos": [
+      "Comparte tu enlace de referido desde la app",
+      "Tu amigo se registra usando ese enlace",
+      "Tu amigo realiza un gasto mínimo con su tarjeta",
+      "Recibes 30€ en tu cuenta"
+    ],
+    "letraPequena": "El importe puede variar según campaña activa en el momento de la invitación.",
+    "enlace": "https://www.revolut.com"
+  },
+  {
+    "id": "4",
+    "slug": "myinvestor-deposito-bienvenida",
+    "titulo": "3,5% TAE a 12 meses para nuevos clientes",
+    "entidad": "MyInvestor",
+    "categoria": "bancaria",
+    "tipoTexto": "Depósito",
+    "recompensa": "3,5% TAE",
+    "clienteNuevo": true,
+    "nominaMinima": 0,
+    "importeMinimo": 1000,
+    "region": "nacional",
+    "fechaLimite": "2026-07-31",
+    "resumen": "Depósito a 12 meses con 3,5% TAE para clientes que abran cuenta por primera vez en MyInvestor, con un importe mínimo de 1.000€.",
+    "puntosClave": [
+      "Depósito a plazo fijo de 12 meses",
+      "3,5% TAE para nuevos clientes",
+      "Importe entre 1.000€ y 100.000€"
+    ],
+    "requisitos": [
+      "Ser cliente nuevo de MyInvestor",
+      "Importe mínimo de 1.000€, máximo 100.000€",
+      "Mantener el depósito el plazo completo de 12 meses"
+    ],
+    "pasos": [
+      "Abre cuenta en MyInvestor",
+      "Contrata el depósito a 12 meses desde el apartado de ahorro",
+      "Transfiere el importe antes de la fecha límite",
+      "Recibe el 3,5% TAE al vencimiento"
+    ],
+    "letraPequena": "El TAE puede variar según la campaña vigente. Cancelación anticipada puede penalizar la rentabilidad.",
+    "enlace": "https://www.myinvestor.es"
+  },
+  {
+    "id": "5",
+    "slug": "freecash-registro-sin-inversion",
+    "titulo": "Hasta 15€ por registrarte, sin meter dinero",
+    "entidad": "Freecash",
+    "categoria": "apps-gratis",
+    "tipoTexto": "App sin inversión",
+    "recompensa": "Hasta 15€",
+    "clienteNuevo": true,
+    "nominaMinima": 0,
+    "importeMinimo": 0,
+    "region": "nacional",
+    "fechaLimite": "2026-12-31",
+    "resumen": "Regístrate en Freecash y gana dinero completando ofertas gratuitas, encuestas o probando apps. No requiere ingresar ni invertir capital propio.",
+    "puntosClave": [
+      "No hace falta meter ni un euro propio",
+      "Dinero por completar ofertas, encuestas o probar apps",
+      "Retiro a PayPal o cripto"
+    ],
+    "requisitos": [
+      "Registrarte con email o cuenta de Google",
+      "Verificar tu cuenta",
+      "Completar al menos una oferta gratuita para desbloquear el retiro"
+    ],
+    "pasos": [
+      "Regístrate con email o cuenta de Google",
+      "Verifica tu cuenta",
+      "Completa al menos una oferta marcada como gratuita",
+      "Retira el saldo cuando llegues al mínimo"
+    ],
+    "letraPequena": "El importe real depende de las ofertas completadas y puede variar según disponibilidad geográfica.",
+    "enlace": "https://www.freecash.com"
+  },
+  {
+    "id": "6",
+    "slug": "wecity-primera-inversion",
+    "titulo": "25€ por tu primera inversión inmobiliaria",
+    "entidad": "Wecity",
+    "categoria": "inversion",
+    "tipoTexto": "Inversión / crowdfunding",
+    "recompensa": "25€",
+    "clienteNuevo": true,
+    "nominaMinima": 0,
+    "importeMinimo": 250,
+    "region": "nacional",
+    "fechaLimite": "2026-10-31",
+    "resumen": "Plataforma de crowdfunding inmobiliario. Al hacer tu primera inversión en cualquier proyecto activo, Wecity te devuelve 25€ como bienvenida.",
+    "puntosClave": [
+      "Crowdfunding inmobiliario, desde 250€",
+      "25€ de bienvenida en tu primera inversión",
+      "Riesgo de pérdida de capital, sin liquidez hasta el cierre del proyecto"
+    ],
+    "requisitos": [
+      "Ser cliente nuevo de Wecity",
+      "Invertir un mínimo de 250€ en un proyecto activo",
+      "Mantener la inversión hasta el cierre del proyecto para no perder la bonificación"
+    ],
+    "pasos": [
+      "Regístrate y verifica tu identidad",
+      "Elige un proyecto inmobiliario activo",
+      "Invierte al menos 250€",
+      "Recibe 25€ en tu monedero en los días siguientes"
+    ],
+    "letraPequena": "La inversión en crowdfunding inmobiliario conlleva riesgo de pérdida de capital y falta de liquidez hasta el cierre del proyecto. La bonificación puede variar según campaña vigente.",
+    "enlace": "https://www.wecity.com"
+  },
+  {
+    "id": "7",
+    "slug": "urbanitae-referido-inversion",
+    "titulo": "Hasta 90€ por tu primera inversión (con mi aportación extra)",
+    "entidad": "Urbanitae",
+    "categoria": "inversion",
+    "tipoTexto": "Inversión / crowdfunding",
+    "recompensa": "Hasta 90€",
+    "clienteNuevo": true,
+    "nominaMinima": 0,
+    "importeMinimo": 500,
+    "region": "nacional",
+    "fechaLimite": null,
+    "logo": "urbanitae.png",
+    "resumen": "Urbanitae es una plataforma de crowdfunding inmobiliario regulada por la CNMV. Te permite invertir en proyectos inmobiliarios grandes a partir de solo 500€, diversificando el riesgo entre varios inversores particulares.",
+    "puntosClave": [
+      "Crowdfunding inmobiliario regulado por la CNMV, desde 500€",
+      "La recompensa crece según cuánto inviertas (hasta 90€)",
+      "No es líquido: el dinero queda invertido hasta el cierre del proyecto"
+    ],
+    "requisitos": [
+      "Registrarte en Urbanitae usando el enlace de referido de esta página",
+      "Realizar tu primera inversión en cualquier proyecto activo de la plataforma",
+      "Invertir un mínimo de 500€",
+      "No ser familiar de primer grado de quien te invita (lo exige Urbanitae)"
+    ],
+    "pasos": [
+      "Regístrate con el enlace de invitación de esta página",
+      "Verifica tu identidad",
+      "Elige un proyecto activo e invierte al menos 500€",
+      "Recibe la bonificación en tu wallet a los 10 días del cierre del proyecto"
+    ],
+    "tramos": [
+      {
+        "desde": 500,
+        "hasta": 1500,
+        "recompensa": "30€"
+      },
+      {
+        "desde": 1510,
+        "hasta": 3000,
+        "recompensa": "60€"
+      },
+      {
+        "desde": 3001,
+        "hasta": null,
+        "recompensa": "90€"
+      }
+    ],
+    "letraPequena": "La inversión en crowdfunding inmobiliario conlleva riesgo de pérdida de capital y no es líquida hasta el cierre del proyecto (no se puede retirar antes). El programa de referidos de Urbanitae no es acumulable con otras bonificaciones y no aplica entre familiares de primer grado. Las condiciones y tramos pueden cambiar; Urbanitae ha ofrecido puntualmente campañas que duplican estos importes durante periodos limitados. Verifica siempre las condiciones vigentes en la web oficial antes de invertir.",
+    "enlace": "https://urbanitae.com/es/invitado?access=U149406"
+  }
+];

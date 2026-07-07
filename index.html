@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dinero Inteligente — Encuentra tu promoción</title>
+<meta name="description" content="Cuestionario rápido para encontrar las mejores promociones bancarias, de apps y de tarjetas según tu perfil.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo"><span class="dot"></span>Dinero Inteligente</a>
+    <nav class="nav-links">
+      <a href="#wizard">Encuentra tu promo</a>
+      <a href="promos/index.html">Todas las promociones</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow">● Actualizado con promociones vigentes</span>
+    <h1>Cada promoción de dinero que merece la pena, filtrada para ti</h1>
+    <p class="lead">Cuentas bancarias, depósitos, apps de inversión y tarjetas con recompensa. Responde 4 preguntas y te digo cuáles puedes conseguir ahora mismo.</p>
+
+    <div class="match-counter" id="matchCounter">
+      <span class="num" id="matchNum">7</span>
+      <span class="label">promociones disponibles ahora mismo</span>
+    </div>
+  </div>
+</section>
+
+<section class="wizard" id="wizard">
+  <div class="wrap">
+    <div class="wizard-card">
+
+      <div id="step-0" class="wizard-step">
+        <div class="wizard-step-label">Pregunta 1 de 3</div>
+        <div class="wizard-question">¿Qué tipo de promoción buscas?</div>
+        <div class="option-grid" data-question="categoria">
+          <button class="option-btn" data-value="apps-gratis">Apps sin inversión (dinero gratis)</button>
+          <button class="option-btn" data-value="inversion">Inversión / crowdfunding</button>
+          <button class="option-btn" data-value="bancaria">Cuenta bancaria</button>
+          <button class="option-btn" data-value="tarjeta">Tarjeta / fintech</button>
+          <button class="option-btn" data-value="cualquiera">Cualquiera</button>
+        </div>
+      </div>
+
+      <div id="step-1" class="wizard-step" style="display:none">
+        <div class="wizard-step-label">Pregunta 2 de 3</div>
+        <div class="wizard-question">¿Eres cliente nuevo en la entidad que elijas?</div>
+        <div class="option-grid" data-question="clienteNuevo">
+          <button class="option-btn" data-value="si">Sí, sería mi primera vez</button>
+          <button class="option-btn" data-value="no">No, ya soy cliente en varias</button>
+          <button class="option-btn" data-value="cualquiera">Me da igual</button>
+        </div>
+      </div>
+
+      <div id="step-2" class="wizard-step" style="display:none">
+        <div class="wizard-step-label">Pregunta 3 de 3</div>
+        <div class="wizard-question">¿Cuánto puedes domiciliar de nómina o ingresos al mes?</div>
+        <div class="option-grid" data-question="nomina">
+          <button class="option-btn" data-value="0">No voy a domiciliar nada</button>
+          <button class="option-btn" data-value="800">Entre 800€ y 1.500€</button>
+          <button class="option-btn" data-value="1500">Más de 1.500€</button>
+        </div>
+      </div>
+
+      <div class="wizard-nav">
+        <div class="step-dots">
+          <span class="active" data-dot="0"></span>
+          <span data-dot="1"></span>
+          <span data-dot="2"></span>
+        </div>
+        <div style="display:flex; gap:10px;">
+          <button class="btn btn-ghost" id="btnBack" style="display:none">Atrás</button>
+          <button class="btn btn-ghost" id="btnReset">Empezar de nuevo</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="results" id="results">
+  <div class="wrap">
+    <div class="results-header">
+      <h2>Promociones para ti</h2>
+      <span class="results-count" id="resultsCount">4 resultados</span>
+    </div>
+    <div class="promo-grid" id="promoGrid"></div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 Dinero Inteligente</span>
+    <span>Las condiciones de cada promoción pueden cambiar. Verifica siempre en la web oficial antes de contratar.</span>
+  </div>
+</footer>
+
+<script src="assets/js/promos-data.js"></script>
+<script src="assets/js/wizard.js"></script>
+</body>
+</html>
